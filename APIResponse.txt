@@ -1,0 +1,166 @@
+{
+  "success": true,
+  "status": "INTERACTION_EVIDENCE_FOUND",
+  "drug1": {
+    "input": "Levothyroxine",
+    "found": true,
+    "rxcui": "10582",
+    "rxnormName": "levothyroxine",
+    "tty": "IN",
+    "ingredients": [
+      "levothyroxine"
+    ],
+    "ingredientRxcuis": [
+      "10582"
+    ],
+    "aliases": [
+      "Levothyroxine",
+      "levothyroxine"
+    ],
+    "generic": "levothyroxine"
+  },
+  "drug2": {
+    "input": "Calcium Carbonate",
+    "found": true,
+    "rxcui": "1897",
+    "rxnormName": "calcium carbonate",
+    "tty": "IN",
+    "ingredients": [
+      "calcium carbonate"
+    ],
+    "ingredientRxcuis": [
+      "1897"
+    ],
+    "aliases": [
+      "Calcium Carbonate",
+      "calcium carbonate",
+      "calcite"
+    ],
+    "generic": "calcium carbonate"
+  },
+  "hasInteraction": true,
+  "interaction": {
+    "evidenceMatch": "DIRECT_PAIR",
+    "direction": "calcium carbonate -> levothyroxine",
+    "mechanism": [],
+    "effectOnVictimDrug": "DECREASE",
+    "clinicalConsequences": [],
+    "recommendations": [
+      "MONITOR"
+    ],
+    "severity": "MODERATE",
+    "severitySource": "APPLICATION_LABEL_RULE",
+    "severityRule": "MONITORING_OR_CLINICAL_CONSEQUENCE",
+    "evidence": "ne pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to levothyroxine sodium (Tables 5 to 8). Table 5. Drugs That May Decrease T4 Absorption (Hypothyroidism) Potential impact: Concurrent use may reduce the efficacy of levothyroxine sodium by binding and delaying or preventing absorption, potentially resulting in hypothyroidism. Drug or Drug Class Effect Phosphate Binders (e.g., calcium carbonate, ferrous sulfate, sevelamer, lanthanum) Phosphate binders may bind to levothyroxine. Administer levothyroxine sodium tablets at least 4 hours apart from these agents. Orlistat Monitor patients treated concomitantly with orlistat and levothyroxine sodium for changes in thyroid function. Bile Acid Sequestrants (e.g., colesevelam, cholestyramine, colestipol) Ion Exchange Resins (e.g., Kayexalate) Bile acid sequestrants and ion exchange resins are known to decrease levothyroxine absorption. Administer levothyroxine sodium tablets at least 4 hours prior to these drugs or monitor TSH levels. Proton Pump Inhibitors Sucralfate Antacids (e.g., aluminum & magnesium hydroxides, simethicone) Gastric acidity is an essential requirement for adequate absorption of levothyroxine. Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH, and reduce levothyroxine absorption. Monitor patients appropriately. Table 6. Drugs That May Alter T4 and Triiodothyronine (T3) Serum Transport Without Affecting Free Thyroxine (FT4) Concentration (Euthyroidism) Drug or Drug Class Effect Clofibrate Estrogen-containing oral contraceptives Estrogens (oral) Heroin / Methadone 5-Fluorouracil Mitotane Tamoxifen These drugs may increase serum thyroxine-binding",
+    "source": {
+      "type": "openFDA",
+      "section": "drug_interactions",
+      "effectiveTime": "20260324",
+      "setId": "008de8fd-150f-4022-8ccb-c8bfa94875c7",
+      "labelId": "f059a576-bb4b-441d-917e-4338bc3df403"
+    }
+  },
+  "evidenceCount": 42,
+  "alternativeEvidence": [
+    {
+      "victim": "levothyroxine",
+      "interactingDrug": "calcium carbonate",
+      "direction": "calcium carbonate -> levothyroxine",
+      "relationship": "DIRECT_PAIR",
+      "evidence": "mone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to Levothyroxine Sodium Tablets (see Tables 2-5 below). Table 2. Drugs That May Decrease T4 Absorption (Hypothyroidism) Potential impact: Concurrent use may reduce the efficacy of Levothyroxine Sodium Tablets by binding and delaying or preventing absorption, potentially resulting in hypothyroidism. Drug or Drug Class Effect Calcium Carbonate Ferrous Sulfate Calcium carbonate may form an insoluble chelate with levothyroxine, and ferrous sulfate likely forms a ferric-thyroxine complex. Administer Levothyroxine Sodium Tablets at least 4 hours apart from these agents. Orlistat Monitor patients treated concomitantly with orlistat and Levothyroxine Sodium Tablets for changes in thyroid function. Bile Acid Sequestrants - Colesevelam - Cholestyramine - Colestipol Ion Exchange Resins - Kayexalate - Sevelamer Bile acid sequestrants and ion exchange resins are known to decrease levothyroxine absorption. Administer Levothyroxine Sodium Tablets at least 4 hours prior to these drugs or monitor TSH levels. Other drugs: Proton Pump Inhibitors Sucralfate Antacids - Aluminum & Magnesium Hydroxides - Simethicone Gastric acidity is an essential requirement for adequate absorption of levothyroxine. Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH, and reduce levothyroxine absorption. Monitor patients appropriately. Table 3. Drugs That May Alter T4 and Triiodothyronine (T3) Serum Transport Without Affecting Free Thyroxine (FT4) Concentration (Euthyroidism) Drug or Drug Class Effect Clofibrate Estrogen-containing oral contraceptives Estrogens (oral) Heroin / Methadone 5-Flu",
+      "mechanisms": [],
+      "exposureDirection": "DECREASE",
+      "clinicalConsequences": [],
+      "recommendations": [
+        "MONITOR"
+      ],
+      "severity": {
+        "value": "MODERATE",
+        "source": "APPLICATION_LABEL_RULE",
+        "rule": "MONITORING_OR_CLINICAL_CONSEQUENCE"
+      },
+      "source": {
+        "type": "openFDA",
+        "section": "drug_interactions",
+        "effectiveTime": "20251001",
+        "setId": "00a4fc0b-7162-455e-8ed3-56efdbbe182e",
+        "labelId": "f62f1fc7-cc68-45c6-bfdd-bce15cb526f5"
+      }
+    },
+    {
+      "victim": "levothyroxine",
+      "interactingDrug": "calcium carbonate",
+      "direction": "calcium carbonate -> levothyroxine",
+      "relationship": "DIRECT_PAIR",
+      "evidence": "mone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to levothyroxine sodium tablets (see Tables 2-5 below). Table 2. Drugs That May Decrease T4 Absorption (Hypothyroidism) Potential impact: Concurrent use may reduce the efficacy of levothyroxine sodium tablets by binding and delaying or preventing absorption, potentially resulting in hypothyroidism. Drug or Drug Class Effect Calcium Carbonate Ferrous Sulfate Calcium carbonate may form an insoluble chelate with levothyroxine, and ferrous sulfate likely forms a ferric-thyroxine complex. Administer levothyroxine sodium tablets at least 4 hours apart from these agents. Orlistat Monitor patients treated concomitantly with orlistat and levothyroxine sodium tablets for changes in thyroid function. Bile Acid Sequestrants -Colesevelam -Cholestyramine -Colestipol Ion Exchange Resins -Kayexalate -Sevelamer Bile acid sequestrants and ion exchange resins are known to decrease levothyroxine absorption. Administer levothyroxine sodium tablets at least 4 hours prior to these drugs or monitor TSH levels. Other drugs: Proton Pump Inhibitors Sucralfate Antacids - Aluminum & Magnesium Hydroxides - Simethicone Gastric acidity is an essential requirement for adequate absorption of levothyroxine. Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH, and reduce levothyroxine absorption. Monitor patients appropriately. Table 3. Drugs That May Alter T4 and Triiodothyronine (T3) Serum Transport Without Affecting Free Thyroxine (FT4) Concentration (Euthyroidism) Drug or Drug Class Effect Clofibrate Estrogen-containing oral contraceptives Estrogens (oral) Heroin / Methadone 5-Fluorour",
+      "mechanisms": [],
+      "exposureDirection": "DECREASE",
+      "clinicalConsequences": [],
+      "recommendations": [
+        "MONITOR"
+      ],
+      "severity": {
+        "value": "MODERATE",
+        "source": "APPLICATION_LABEL_RULE",
+        "rule": "MONITORING_OR_CLINICAL_CONSEQUENCE"
+      },
+      "source": {
+        "type": "openFDA",
+        "section": "drug_interactions",
+        "effectiveTime": "20260407",
+        "setId": "0210a600-747e-433a-8ba9-11692ecfb54a",
+        "labelId": "699247e5-3bc2-4ef3-aed5-48b44c6c7722"
+      }
+    },
+    {
+      "victim": "levothyroxine",
+      "interactingDrug": "calcium carbonate",
+      "direction": "calcium carbonate -> levothyroxine",
+      "relationship": "DIRECT_PAIR",
+      "evidence": "ics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to levothyroxine sodium tablets (Tables 5 to 8). Table 5. Drugs That May Decrease T4 Absorption (Hypothyroidism) Potential impact: Concurrent use may reduce the efficacy of levothyroxine sodium tablets by binding and delaying or preventing absorption, potentially resulting in hypothyroidism. Drug or Drug Class Effect Phosphate Binders (e.g., calcium carbonate, ferrous sulfate, sevelamer, lanthanum) Phosphate binders may bind to levothyroxine. Administer levothyroxine sodium tablets at least 4 hours apart from these agents. Orlistat Monitor patients treated concomitantly with orlistat and levothyroxine sodium tablets for changes in thyroid function. Bile Acid Sequestrants (e.g., colesevelam, cholestyramine, colestipol) Ion Exchange Resins (e.g., Kayexalate) Bile acid sequestrants and ion exchange resins are known to decrease levothyroxine absorption. Administer levothyroxine sodium tablets at least 4 hours prior to these drugs or monitor TSH levels. Proton Pump Inhibitors Sucralfate Antacids (e.g., aluminum & magnesium hydroxides, simethicone) Gastric acidity is an essential requirement for adequate absorption of levothyroxine. Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH, and reduce levothyroxine absorption. Monitor patients appropriately. Table 6. Drugs That May Alter T4 and Triiodothyronine (T3) Serum Transport Without Affecting Free Thyroxine (FT4) Concentration (Euthyroidism) Drug or Drug Class Effect Clofibrate Estrogen-containing oral contraceptives Estrogens (oral) Heroin / Methadone 5-Fluorouracil Mitotane Tamoxifen These drugs may increase serum thyroxine-",
+      "mechanisms": [],
+      "exposureDirection": "DECREASE",
+      "clinicalConsequences": [],
+      "recommendations": [
+        "MONITOR"
+      ],
+      "severity": {
+        "value": "MODERATE",
+        "source": "APPLICATION_LABEL_RULE",
+        "rule": "MONITORING_OR_CLINICAL_CONSEQUENCE"
+      },
+      "source": {
+        "type": "openFDA",
+        "section": "drug_interactions",
+        "effectiveTime": "20260401",
+        "setId": "0235176b-ec39-44c4-a9e1-e0729a7989fa",
+        "labelId": "0235176b-ec39-44c4-a9e1-e0729a7989fa"
+      }
+    },
+    {
+      "victim": "levothyroxine",
+      "interactingDrug": "calcium carbonate",
+      "direction": "calcium carbonate -> levothyroxine",
+      "relationship": "DIRECT_PAIR",
+      "evidence": "mone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to levothyroxine sodium tablets (see Tables 2-5 below). Table 2. Drugs That May Decrease T4 Absorption (Hypothyroidism) Potential impact: Concurrent use may reduce the efficacy of levothyroxine sodium tablets by binding and delaying or preventing absorption, potentially resulting in hypothyroidism. Drug or Drug Class Effect Calcium Carbonate Ferrous Sulfate Calcium carbonate may form an insoluble chelate with levothyroxine, and ferrous sulfate likely forms a ferric-thyroxine complex. Administer levothyroxine sodium tablets at least 4 hours apart from these agents. Orlistat Monitor patients treated concomitantly with orlistat and levothyroxine sodium tablets for changes in thyroid function. Bile Acid Sequestrants -Colesevelam -Cholestyramine -Colestipol Ion Exchange Resins -Kayexalate -Sevelamer Bile acid sequestrants and ion exchange resins are known to decrease levothyroxine absorption. Administer levothyroxine sodium tablets at least 4 hours prior to these drugs or monitor TSH levels. Other drugs: Proton Pump Inhibitors Sucralfate Antacids - Aluminum & Magnesium Hydroxides - Simethicone Gastric acidity is an essential requirement for adequate absorption of levothyroxine. Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH, and reduce levothyroxine absorption. Monitor patients appropriately. Table 3. Drugs That May Alter T4 and Triiodothyronine (T3) Serum Transport Without Affecting Free Thyroxine (FT4) Concentration (Euthyroidism) Drug or Drug Class Effect Clofibrate Estrogen-containing oral contraceptives Estrogens (oral) Heroin / Methadone 5-Fluorour",
+      "mechanisms": [],
+      "exposureDirection": "DECREASE",
+      "clinicalConsequences": [],
+      "recommendations": [
+        "MONITOR"
+      ],
+      "severity": {
+        "value": "MODERATE",
+        "source": "APPLICATION_LABEL_RULE",
+        "rule": "MONITORING_OR_CLINICAL_CONSEQUENCE"
+      },
+      "source": {
+        "type": "openFDA",
+        "section": "drug_interactions",
+        "effectiveTime": "20260407",
+        "setId": "0b9d21d8-9b49-4fd2-b516-b25bc6a6b671",
+        "labelId": "d3a36085-78fd-423c-9487-5437909d1507"
+      }
+    }
+  ]
+}

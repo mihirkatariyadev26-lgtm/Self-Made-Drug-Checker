@@ -1,0 +1,5 @@
+https://rxnav.nlm.nih.gov/REST/rxcui.json	
+https://rxnav.nlm.nih.gov/REST/rxcui/{rxcui}/properties.json	
+https://rxnav.nlm.nih.gov/REST/rxcui/{rxcui}/related.json?tty=IN	
+https://api.fda.gov/drug/label.json	
+https://api.fda.gov/drug/label.json
