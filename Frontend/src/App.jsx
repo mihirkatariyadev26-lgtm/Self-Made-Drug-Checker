@@ -1,5 +1,10 @@
 import { useState } from "react";
 
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://self-made-drug-checker.onrender.com"
+).replace(/\/+$/, "");
+
 function BrandMark() {
   return (
     <span className="brand-mark" aria-hidden="true">
@@ -430,7 +435,7 @@ export default function App() {
 
     setIsLoading(true);
     try {
-      const response = await fetch("/getMedicineData", {
+      const response = await fetch(`${API_BASE_URL}/getMedicineData`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ drug1: first, drug2: second }),
